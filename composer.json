@@ -1,0 +1,16 @@
+{
+    "name": "hernanaguilera/prueba-tecnica-php",
+    "autoload": {
+        "psr-4": {
+            "Hernanaguilera\\PruebaTecnicaPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hernan Aguilera"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
