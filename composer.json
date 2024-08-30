@@ -2,7 +2,8 @@
     "name": "hernanaguilera/prueba-tecnica-php",
     "autoload": {
         "psr-4": {
-            "Hernanaguilera\\PruebaTecnicaPhp\\": "src/"
+            "Hernanaguilera\\PruebaTecnicaPhp\\": "src/",
+            "Hernanaguilera\\PruebaTecnicaPhp\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -11,6 +12,9 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "^11.3"
+        "phpunit/phpunit": "^11.3",
+        "fakerphp/faker": "^1.23"
+    },
+    "require": {
     }
 }

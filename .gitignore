@@ -1,1 +1,5 @@
 /vendor/
+.phpunit.result.cache
+phpunit.xml.bak
+/.phpunit.cache/
+Tasks.md
